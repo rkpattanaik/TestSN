@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestSpotSoon</string>
+    <string name="home">HOME</string>
+    <string name="cover">Cover</string>
+    <string name="dummy_track_text">Lorem ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="tab_indicator_icon">Tab Indicator Icon</string>
+    <string name="images">Images</string>
+    <string name="milestone">Milestone</string>
+    <string name="slider">Slider</string>
+    <string name="poster">Poster</string>
+</resources>

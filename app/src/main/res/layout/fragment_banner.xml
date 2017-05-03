@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/banner_half_girlfriend"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/banner_gradient"/>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/margin_padding_24">
+
+        <ImageView
+            android:id="@+id/ivPlay"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/play"/>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/ivPlay"
+            android:textSize="@dimen/text_large"
+            android:textStyle="bold"
+            tools:text="Half Girlfriend"
+            style="@style/banner_text" />
+
+        <TextView
+            android:id="@+id/tvFtBy"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/ivPlay"
+            android:textSize="@dimen/text_medium"
+            tools:text="Arjun Kapoor, Sradha Kapoor"
+            style="@style/banner_text"/>
+    </RelativeLayout>
+</RelativeLayout>
